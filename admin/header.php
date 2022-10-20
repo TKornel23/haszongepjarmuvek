@@ -30,7 +30,7 @@
     <!-- Library: toastr -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.css">
     
-    <title>Admin | Dashboard</title>
+    <title>Admin | Kezelőfelület</title>
     <style>
         html {
             position: relative;
@@ -61,13 +61,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item <?=($_PAGE == 'Home' ? 'active' : "")?>">
-                    <a class="nav-link" href="index.php">Home</a>
+                    <a class="nav-link" href="index.php">Főoldal</a>
                 </li>
                 <li class="nav-item <?=($_PAGE == 'Account' ? 'active' : "")?>">
-                    <a class="nav-link" href="account.php">Change Password</a>
+                    <a class="nav-link" href="account.php">Jelszó megváltoztatása</a>
                 </li>
             </ul>
-            <a href="logout.php" class="btn btn-sm btn-danger">Logout</a>
+            <a href="logout.php" class="btn btn-sm btn-danger">Kijelentkezés</a>
             
         </div>
     </nav>
