@@ -135,7 +135,7 @@
                                 </div>
                                 
                                 <p class="mt-5">
-                                    <h4>Description</h4>
+                                    <h4>Leírás</h4>
                                     <?=$row['description']?>
                                 </p>
 
