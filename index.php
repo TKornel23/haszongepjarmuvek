@@ -14,10 +14,10 @@
     $countRows = mysqli_num_rows($query);
 
     if($countRows > 0){
-        $message = $countRows." Product(s) Found";
+        $message = $countRows." Termék található";
     }
     else{
-        $message = "No Matching Product Found, Try a Different Search";
+        $message = "Nem található termék, próbáljon ki egy másik keresést";
     }
 ?>
 <!doctype html>
@@ -44,7 +44,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.css"
     rel="stylesheet"
     />
-    <title>Product Catalog</title>
+    <title>Termék katalógus</title>
 </head>
 <body style="background-color: #eee;">
 <section>
