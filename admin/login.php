@@ -13,7 +13,7 @@
 <html>
     
 <head>
-	<title>ADMIN | Login</title>
+	<title>ADMIN | Bejelentkezés</title>
 	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -107,16 +107,16 @@
 				<div class="d-flex justify-content-center form_container">
 					<form method="POST" id="adminformlogin">
 						<div class="input-group">
-							<p class="text-white">Enter Password:</p>
+							<p class="text-white">Adja meg a helszót:</p>
 						</div>
 						<div class="input-group">
                             <div class="input-group-append">
 								<span class="input-group-text"><i class="fas fa-key"></i></span>
 							</div>
-							<input type="password" name="password" id="password" class="form-control input_pass" value="" required placeholder="password">
+							<input type="password" name="password" id="password" class="form-control input_pass" value="" required placeholder="Jelszó">
 						</div>
 						<div class="d-flex justify-content-center mt-3 login_container">
-				 	        <button type="submit" name="button" class="btn login_btn">Login</button>
+				 	        <button type="submit" name="button" class="btn login_btn">Belépés</button>
 				        </div>
 					</form>
 				</div>
