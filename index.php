@@ -50,8 +50,8 @@
 <section>
     <div class="text-center mt-5">
         <form class="text-center" method="POST">
-            <input class="form-control w-50 d-inline" type="text" name="search" value="<?=(isset($_POST['search']) ? $_POST['search'] : "")?>" placeholder="Search..." />
-            <input class="btn btn-md btn-info" type="submit" name="submit" value="Search"/>
+            <input class="form-control w-50 d-inline" type="text" name="search" value="<?=(isset($_POST['search']) ? $_POST['search'] : "")?>" placeholder="Keresés..." />
+            <input class="btn btn-md btn-info" type="submit" name="submit" value="KERESÉS"/>
         </form>
     </div>
     <h5 class="text-center mt-4"><?=$message?> </h5>
@@ -84,7 +84,7 @@
                                         <h4 class="mb-1 me-1">$<?=$row['price']?></h4>
                                     </div>
                                     <div class="d-flex flex-column mt-4">
-                                        <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal<?=$row['id']?>" type="button">View Images</button>
+                                        <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal<?=$row['id']?>" type="button">Képek megtekintése</button>
                                     </div>
                                 </div>
                             </div>
