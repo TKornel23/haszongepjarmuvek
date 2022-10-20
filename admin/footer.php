@@ -1,6 +1,6 @@
 <footer class="bg-dark text-light text-center">
         <!-- Copyright -->
-        <div class="mt-2">© <?= date("Y");?> Copyright | All rights reserved
+        <div class="mt-2">© <?= date("Y");?> Haszongépek
         </div>
     </footer>
 
