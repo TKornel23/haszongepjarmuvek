@@ -50,7 +50,7 @@
 <section>
     <div class="text-center mt-5">
         <form class="text-center" method="POST">
-            <input class="form-control w-50 d-inline" type="text" name="search" value="<?=(isset($_POST['search']) ? $_POST['search'] : "")?>" placeholder="Keresés..." />
+            <input class="form-control w-50 d-inline" type="text" name="search" value="<?=(isset($_POST['search']) ? $_POST['search'] : "")?>" placeholder="Termék keresése..." />
             <input class="btn btn-md btn-info" type="submit" name="submit" value="KERESÉS"/>
         </form>
     </div>
