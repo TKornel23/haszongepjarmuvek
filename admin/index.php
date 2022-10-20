@@ -4,63 +4,63 @@
 ?>
 
 <div class="container mt-2 card p-4">
-    <h3 class="text-center">---- Add Product ----</h3>
+    <h3 class="text-center">---- Termék hozzáadása ----</h3>
     <hr/>
     <form id="add-product" method="POST" enctype='multipart/form-data'>
         <input type="hidden" class="form-control" id="productid" name="productid">
         <input type="hidden" class="form-control" id="task" name="task" value="add_content">
         <div class="row">
             <div class="col-md-4 mt-3">
-                Enter Title *
-                <input type="text" class="form-control" placeholder="Enter Title" name="title" id="title" required>
+                Termék neve *
+                <input type="text" class="form-control" placeholder="Adja meg a termék nevét" name="title" id="title" required>
             </div>
             <div class="col-md-4 mt-3">
-                Enter Price *
-                <input type="text" class="form-control" placeholder="Enter Price" name="price" id="price" required>
+                Termék ára *
+                <input type="text" class="form-control" placeholder="Adja meg a termék árát" name="price" id="price" required>
             </div>
 
             <div class="col-md-4 mt-3">
-                Select Image #1 <strong>(Primary) *</strong>
+                Adjon hozzá képet #1 <strong>(Elsődleges) *</strong>
                 <input type="file" name="file_1"/>
             </div>
         </div>
         <div class="row">
         <div class="col-md-3 mt-3">
-                Select Image #2
+               Adjon hozzá képet #2
                 <input type="file" name="file_2"/>
             </div>
             <div class="col-md-3 mt-3">
-                Select Image #3
+                Adjon hozzá képet #3
                 <input type="file" name="file_3"/>
             </div>
             <div class="col-md-3 mt-3">
-                Select Image #4
+                Adjon hozzá képet #4
                 <input type="file" name="file_4"/>
             </div>
             <div class="col-md-3 mt-3">
-                Select Image #5
+                Adjon hozzá képet #5
                 <input type="file" name="file_5"/>
             </div>
         </div>
         <br/>
-        Enter Description *
-        <textarea name="description" id="description" class="form-control" rows="5" placeholder="Enter Description" required></textarea>
+        Termék leírása *
+        <textarea name="description" id="description" class="form-control" rows="5" placeholder="Adja meg a termék leírását" required></textarea>
 
         <div class="form-group text-right mt-2">
-            <button class="btn btn-md btn-info enableOnInput" onclick="location.reload();">Reset</button>
-            <button class="btn btn-md btn-success enableOnInput" type='submit'>Save</button>
+            <button class="btn btn-md btn-danger enableOnInput" onclick="location.reload();">Mégsem</button>
+            <button class="btn btn-md btn-success enableOnInput" type='submit'>Mentés</button>
         </div>
     </form>
 
     <table id="example" class="table table-striped table-bordered" style="width:100%">
         <thead>
             <tr>
-                <th>#</th>
-                <th>Title</th>
-                <th>Price</th>
-                <th>View Details</th>
-                <th>Update</th>
-                <th>Delete</th>
+                <th>Azonosító</th>
+                <th>Név</th>
+                <th>Ár</th>
+                <th>Előnézet</th>
+                <th>Szerkesztés</th>
+                <th>Törlés</th>
             </tr>
         </thead>
     </table>
@@ -70,7 +70,7 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalCenterTitle">Product #<span id="view_id"></span></h5>
+                <h5 class="modal-title" id="exampleModalCenterTitle">Termék #<span id="view_id"></span></h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
@@ -96,11 +96,11 @@
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
+                        <span class="sr-only">Előző</span>
                     </a>
                     <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
+                        <span class="sr-only">Következő</span>
                     </a>
                 </div>
 
@@ -115,7 +115,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Bezárás</button>
             </div>
         </div>
     </div>
