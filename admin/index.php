@@ -21,25 +21,25 @@
 
             <div class="col-md-4 mt-3">
                 Adjon hozzá képet #1 <strong>(Elsődleges) *</strong>
-                <input type="file" name="file_1" id="file_1" class="simple-file-upload">
+                <input type="file" name="file_1"/>
             </div>
         </div>
         <div class="row">
         <div class="col-md-3 mt-3">
                Adjon hozzá képet #2
-                <input type="hidden" name="file_2" id="file_1" class="simple-file-upload">
+               <input type="file" name="file_2"/>
             </div>
             <div class="col-md-3 mt-3">
                 Adjon hozzá képet #3
-                <input type="hidden" name="file_1" id="file_3" class="simple-file-upload">
+                <input type="file" name="file_3"/>
             </div>
             <div class="col-md-3 mt-3">
                 Adjon hozzá képet #4
-                <input type="hidden" name="file_1" id="file_4" class="simple-file-upload">
+                <input type="file" name="file_4"/>
             </div>
             <div class="col-md-3 mt-3">
                 Adjon hozzá képet #5
-               <input type="hidden" name="file_1" id="file_5" class="simple-file-upload">
+               <input type="file" name="file_5"/>
             </div>
         </div>
         <br/>
