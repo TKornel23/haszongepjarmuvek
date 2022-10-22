@@ -21,7 +21,7 @@
 
             <div class="col-md-4 mt-3">
                 Adjon hozzá képet #1 <strong>(Elsődleges) *</strong>
-                <input type="hidden" name="file_1" id="file_1" class="simple-file-upload">
+                <input type="file" name="file_1" id="file_1" class="simple-file-upload">
             </div>
         </div>
         <div class="row">
