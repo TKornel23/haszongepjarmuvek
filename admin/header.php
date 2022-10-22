@@ -29,7 +29,6 @@
 
     <!-- Library: toastr -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.css">
-    <script src="https://app.simplefileupload.com/buckets/85a8e946f786f22c1faa8af7c7c11930.js"></script>
     <title>Admin | Kezelőfelület</title>
     <style>
         html {
