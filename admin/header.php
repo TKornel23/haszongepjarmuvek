@@ -29,7 +29,7 @@
 
     <!-- Library: toastr -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.css">
-    
+    <script src="https://app.simplefileupload.com/buckets/[your API key here].js"></script>
     <title>Admin | Kezelőfelület</title>
     <style>
         html {
