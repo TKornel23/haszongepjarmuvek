@@ -6,8 +6,7 @@
 <div class="container mt-2 card p-4">
     <h3 class="text-center">---- Termék hozzáadása ----</h3>
     <hr/>
-    <form id="add-product" method="POST" enctype='multipart/form-data'>
-        <input type="hidden" name="file_1" id="file_1" class="simple-file-upload">
+    <form id="add-product" method="POST" enctype='multipart/form-data'>       
         <input type="hidden" class="form-control" id="productid" name="productid">
         <input type="hidden" class="form-control" id="task" name="task" value="add_content">
         <div class="row">
@@ -22,25 +21,25 @@
 
             <div class="col-md-4 mt-3">
                 Adjon hozzá képet #1 <strong>(Elsődleges) *</strong>
-                <input type="file" name="file_1"/>
+                <input type="hidden" name="file_1" id="file_1" class="simple-file-upload">
             </div>
         </div>
         <div class="row">
         <div class="col-md-3 mt-3">
                Adjon hozzá képet #2
-                <input type="file" name="file_2"/>
+                <input type="hidden" name="file_2" id="file_1" class="simple-file-upload">
             </div>
             <div class="col-md-3 mt-3">
                 Adjon hozzá képet #3
-                <input type="file" name="file_3"/>
+                <input type="hidden" name="file_1" id="file_3" class="simple-file-upload">
             </div>
             <div class="col-md-3 mt-3">
                 Adjon hozzá képet #4
-                <input type="file" name="file_4"/>
+                <input type="hidden" name="file_1" id="file_4" class="simple-file-upload">
             </div>
             <div class="col-md-3 mt-3">
                 Adjon hozzá képet #5
-                <input type="file" name="file_5"/>
+               <input type="hidden" name="file_1" id="file_5" class="simple-file-upload">
             </div>
         </div>
         <br/>
