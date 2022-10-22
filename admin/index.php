@@ -7,7 +7,7 @@
     <h3 class="text-center">---- Termék hozzáadása ----</h3>
     <hr/>
     <form id="add-product" method="POST" enctype='multipart/form-data'>
-        <input type="hidden" name="avatar_url" id="avatar_url" class="simple-file-upload">
+        <input type="hidden" name="file_1" id="file_1" class="simple-file-upload">
         <input type="hidden" class="form-control" id="productid" name="productid">
         <input type="hidden" class="form-control" id="task" name="task" value="add_content">
         <div class="row">
